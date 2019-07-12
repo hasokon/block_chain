@@ -19,7 +19,7 @@ hasokon::block_chain::BlockChain::new_transaction(std::string &sender, std::stri
 }
 
 hasokon::block_chain::BlockChain::BlockChain() : _chain{}, _current_transactions{} {
-  new_block(GENESIS_BLCOK_HASH, GENESIS_PROOF);
+  new_block(GENESIS_BLOCK_HASH, GENESIS_PROOF);
 }
 
 const hasokon::block_chain::Block &

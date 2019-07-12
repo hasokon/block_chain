@@ -5,8 +5,7 @@
 #ifndef BLOCK_CHAIN_BLOCKCHAIN_H
 #define BLOCK_CHAIN_BLOCKCHAIN_H
 
-
-#include <stdint-gcc.h>
+#include <cstdint>
 #include <vector>
 #include <string>
 #include "Block.h"
@@ -14,7 +13,7 @@
 
 namespace hasokon::block_chain {
 
-  const std::string GENESIS_BLCOK_HASH { "1" };
+  const std::string GENESIS_BLOCK_HASH { "1" };
   const std::uint32_t GENESIS_PROOF{ 100 };
 
   class BlockChain {

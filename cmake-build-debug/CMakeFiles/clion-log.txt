@@ -1,4 +1,4 @@
-/home/kentaro/Apps/clion/clion-2019.1.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/kentaro/workspace/clang/block_chain
+"/Users/keiwata/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-1/191.7479.33/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/local/bin/gcc-9 -DCMAKE_CXX_COMPILER=/usr/local/bin/g++-9 -G "CodeBlocks - Unix Makefiles" /Users/keiwata/workspaces/2019/clang/block_chain
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/kentaro/workspace/clang/block_chain/cmake-build-debug
+-- Build files have been written to: /Users/keiwata/workspaces/2019/clang/block_chain/cmake-build-debug

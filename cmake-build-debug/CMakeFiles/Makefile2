@@ -50,19 +50,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/kentaro/Apps/clion/clion-2019.1.4/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = "/Users/keiwata/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-1/191.7479.33/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = /home/kentaro/Apps/clion/clion-2019.1.4/bin/cmake/linux/bin/cmake -E remove -f
+RM = "/Users/keiwata/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-1/191.7479.33/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kentaro/workspace/clang/block_chain
+CMAKE_SOURCE_DIR = /Users/keiwata/workspaces/2019/clang/block_chain
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kentaro/workspace/clang/block_chain/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/keiwata/workspaces/2019/clang/block_chain/cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/block_chain.dir
@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /home/kentaro/workspace/clang/block_chain/cmake-build-debug
 CMakeFiles/block_chain.dir/all:
 	$(MAKE) -f CMakeFiles/block_chain.dir/build.make CMakeFiles/block_chain.dir/depend
 	$(MAKE) -f CMakeFiles/block_chain.dir/build.make CMakeFiles/block_chain.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kentaro/workspace/clang/block_chain/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target block_chain"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/keiwata/workspaces/2019/clang/block_chain/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target block_chain"
 .PHONY : CMakeFiles/block_chain.dir/all
 
 # Include target in all.
@@ -81,9 +81,9 @@ all: CMakeFiles/block_chain.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/block_chain.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kentaro/workspace/clang/block_chain/cmake-build-debug/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/keiwata/workspaces/2019/clang/block_chain/cmake-build-debug/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/block_chain.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kentaro/workspace/clang/block_chain/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/keiwata/workspaces/2019/clang/block_chain/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/block_chain.dir/rule
 
 # Convenience name for target.

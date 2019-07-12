@@ -1,3 +1,7 @@
+#include <utility>
+
+#include <utility>
+
 //
 // Created by kentaro on 19/06/30.
 //
@@ -6,10 +10,9 @@
 #define BLOCK_CHAIN_TRANSACTION_H
 
 
-#include <stdint-gcc.h>
+#include <cstdint>
 #include <vector>
 #include <string>
-#include "Block.h"
 
 namespace hasokon::block_chain {
   class Transaction {
@@ -19,7 +22,7 @@ namespace hasokon::block_chain {
     uint32_t _amount;
   public:
     Transaction(std::string sender, std::string recipient, uint32_t _amount) :
-    _sender{sender}, _recipient{recipient},_amount{_amount} {};
+    _sender{std::move(sender)}, _recipient{std::move(recipient)},_amount{_amount} {};
     std::string to_string() const;
   };
 }

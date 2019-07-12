@@ -17,9 +17,10 @@ std::string hasokon::block_chain::Block::hash() const {
   data << _timestamp;
   data << _proof;
   data << _previous_hash;
-  std::for_each(_transactions.begin(), _transactions.end(), [&data](Transaction &t) {
-    data << (t.to_string());
-  });
+
+  for (auto & t : _transactions) {
+      data << (t.to_string());
+  }
 
   auto data_str = data.str();
 

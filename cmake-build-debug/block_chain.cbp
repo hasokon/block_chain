@@ -8,107 +8,104 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/kentaro/workspace/clang/block_chain/cmake-build-debug"/>
+				<Option working_dir="/Users/keiwata/workspaces/2019/clang/block_chain/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kentaro/workspace/clang/block_chain/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kentaro/workspace/clang/block_chain/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kentaro/workspace/clang/block_chain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kentaro/workspace/clang/block_chain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/keiwata/workspaces/2019/clang/block_chain/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/keiwata/workspaces/2019/clang/block_chain/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/keiwata/workspaces/2019/clang/block_chain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/keiwata/workspaces/2019/clang/block_chain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/kentaro/workspace/clang/block_chain/cmake-build-debug"/>
+				<Option working_dir="/Users/keiwata/workspaces/2019/clang/block_chain/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kentaro/workspace/clang/block_chain/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kentaro/workspace/clang/block_chain/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kentaro/workspace/clang/block_chain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kentaro/workspace/clang/block_chain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="block_chain">
-				<Option output="/home/kentaro/workspace/clang/block_chain/cmake-build-debug/block_chain" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/kentaro/workspace/clang/block_chain/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/8"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
-					<Add directory="/usr/include/c++/8/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kentaro/workspace/clang/block_chain/cmake-build-debug/Makefile&quot;  VERBOSE=1 block_chain"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kentaro/workspace/clang/block_chain/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kentaro/workspace/clang/block_chain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kentaro/workspace/clang/block_chain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="block_chain/fast">
-				<Option output="/home/kentaro/workspace/clang/block_chain/cmake-build-debug/block_chain" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/kentaro/workspace/clang/block_chain/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/8"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
-					<Add directory="/usr/include/c++/8/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kentaro/workspace/clang/block_chain/cmake-build-debug/Makefile&quot;  VERBOSE=1 block_chain/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kentaro/workspace/clang/block_chain/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kentaro/workspace/clang/block_chain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kentaro/workspace/clang/block_chain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/keiwata/workspaces/2019/clang/block_chain/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/keiwata/workspaces/2019/clang/block_chain/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/keiwata/workspaces/2019/clang/block_chain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/keiwata/workspaces/2019/clang/block_chain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/kentaro/workspace/clang/block_chain/cmake-build-debug"/>
+				<Option working_dir="/Users/keiwata/workspaces/2019/clang/block_chain/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kentaro/workspace/clang/block_chain/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kentaro/workspace/clang/block_chain/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kentaro/workspace/clang/block_chain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kentaro/workspace/clang/block_chain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/keiwata/workspaces/2019/clang/block_chain/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/keiwata/workspaces/2019/clang/block_chain/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/keiwata/workspaces/2019/clang/block_chain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/keiwata/workspaces/2019/clang/block_chain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="block_chain">
+				<Option output="/Users/keiwata/workspaces/2019/clang/block_chain/cmake-build-debug/block_chain" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/keiwata/workspaces/2019/clang/block_chain/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/9.1.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.1.0/../../../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/local/Cellar/gcc/9.1.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.1.0/../../../../../../include/c++/9.1.0/x86_64-apple-darwin18"/>
+					<Add directory="/usr/local/Cellar/gcc/9.1.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.1.0/../../../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/9.1.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.1.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/9.1.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.1.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/keiwata/workspaces/2019/clang/block_chain/cmake-build-debug/Makefile&quot;  VERBOSE=1 block_chain"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/keiwata/workspaces/2019/clang/block_chain/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/keiwata/workspaces/2019/clang/block_chain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/keiwata/workspaces/2019/clang/block_chain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="block_chain/fast">
+				<Option output="/Users/keiwata/workspaces/2019/clang/block_chain/cmake-build-debug/block_chain" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/keiwata/workspaces/2019/clang/block_chain/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/9.1.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.1.0/../../../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/local/Cellar/gcc/9.1.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.1.0/../../../../../../include/c++/9.1.0/x86_64-apple-darwin18"/>
+					<Add directory="/usr/local/Cellar/gcc/9.1.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.1.0/../../../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/9.1.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.1.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/9.1.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.1.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/keiwata/workspaces/2019/clang/block_chain/cmake-build-debug/Makefile&quot;  VERBOSE=1 block_chain/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/keiwata/workspaces/2019/clang/block_chain/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/keiwata/workspaces/2019/clang/block_chain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/keiwata/workspaces/2019/clang/block_chain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/kentaro/workspace/clang/block_chain/Block.cpp">
+		<Unit filename="/Users/keiwata/workspaces/2019/clang/block_chain/Block.cpp">
 			<Option target="block_chain"/>
 		</Unit>
-		<Unit filename="/home/kentaro/workspace/clang/block_chain/Block.h">
+		<Unit filename="/Users/keiwata/workspaces/2019/clang/block_chain/Block.h">
 			<Option target="block_chain"/>
 		</Unit>
-		<Unit filename="/home/kentaro/workspace/clang/block_chain/BlockChain.cpp">
+		<Unit filename="/Users/keiwata/workspaces/2019/clang/block_chain/BlockChain.cpp">
 			<Option target="block_chain"/>
 		</Unit>
-		<Unit filename="/home/kentaro/workspace/clang/block_chain/BlockChain.h">
+		<Unit filename="/Users/keiwata/workspaces/2019/clang/block_chain/BlockChain.h">
 			<Option target="block_chain"/>
 		</Unit>
-		<Unit filename="/home/kentaro/workspace/clang/block_chain/Transaction.cpp">
+		<Unit filename="/Users/keiwata/workspaces/2019/clang/block_chain/Transaction.cpp">
 			<Option target="block_chain"/>
 		</Unit>
-		<Unit filename="/home/kentaro/workspace/clang/block_chain/Transaction.h">
+		<Unit filename="/Users/keiwata/workspaces/2019/clang/block_chain/Transaction.h">
 			<Option target="block_chain"/>
 		</Unit>
-		<Unit filename="/home/kentaro/workspace/clang/block_chain/block_t.h">
+		<Unit filename="/Users/keiwata/workspaces/2019/clang/block_chain/main.cpp">
 			<Option target="block_chain"/>
 		</Unit>
-		<Unit filename="/home/kentaro/workspace/clang/block_chain/main.cpp">
-			<Option target="block_chain"/>
-		</Unit>
-		<Unit filename="/home/kentaro/workspace/clang/block_chain/CMakeLists.txt">
+		<Unit filename="/Users/keiwata/workspaces/2019/clang/block_chain/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
